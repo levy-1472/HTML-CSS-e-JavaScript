@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #lista{
+            background-color: bisque;
+            border: 1px solid black;
+            /*list-style-type:lower-alpha;*/
+            list-style-image: url('gifs pequeninos/anicd.gif');
+            list-style-position: inside;
+            padding: 0;
+        }
+        #lista li{
+            background-color: darkkhaki;
+            border:1px solid red;
+            margin:5px;
+            padding: 5px;
+           
+        }
+
+        /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+        /* formatação dos menus */
+        nav ul {
+            background-color: aqua;
+            list-style-type: none;
+            padding:0;
+            width:25%;
+        }
+        nav ul li{
+            background-color: chartreuse;
+            
+            
+        }
+        nav ul li a{
+            padding: 5px;
+            display:block;
+            font-family: Arial, Helvetica, sans-serif; 
+            text-decoration: none;
+        }
+       
+        nav ul li a:link,nav ul li a:visited {
+            background-color: black;
+            color:white;
+        }
+        nav ul li a:hover{
+            background-color: white;
+            color:black;
+            font-style: italic;
+        }
+        nav ul li a:active{
+            background-color: red;
+        }
+        /* menu horizontal */
+        #horizontal ul{
+            width:100%;
+        }
+        #horizontal li{
+            position:relative;
+            float:left;
+            width:25%;
+        }
+        #horizontal a{
+            padding:15px;
+            text-align:center;
+        }
+        
+    </style>
+</head>
+<body>
+ <!-- formatando listas --> 
+ <ol id="lista">
+     <li>Pera</li>
+     <li>Uva</li>
+     <li>Maçã</li>
+     <li>Banana</li>
+ </ol>  
+
+ <hr>
+
+ <nav id="vertical">
+     <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Institucional</a></li>
+        <li><a href="#">Noticias</a></li>
+        <li><a href="#">Fale Conosco</a></li>
+     </ul>
+ </nav>
+
+ <hr>
+
+ <nav id="horizontal">
+     <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Institucional</a></li>
+        <li><a href="#">Noticias</a></li>
+        <li><a href="#">Fale Conosco</a></li>
+     </ul>
+ </nav>
+
+</body>
+</html>
